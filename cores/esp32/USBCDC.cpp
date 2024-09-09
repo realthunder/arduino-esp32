@@ -16,7 +16,7 @@
 
 #if SOC_USB_OTG_SUPPORTED
 #include "USB.h"
-#if CONFIG_TINYUSB_CDC_ENABLED
+#if CONFIG_TINYUSB_ENABLED && CONFIG_TINYUSB_CDC_ENABLED
 
 #include "esp32-hal-tinyusb.h"
 #include "rom/ets_sys.h"
